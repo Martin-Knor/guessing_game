@@ -30,7 +30,9 @@ fn main() {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
-                println!("You win!");break;}
+                println!("You win!");
+                break;
+            }
         }
     } //end of the loop
 }
